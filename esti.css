@@ -420,6 +420,10 @@ article .pedin{
 	height: 240px;
 }
 
+.disconts img:hover{
+	opacity: 0.7;
+}
+
 
 
 .ache0{
@@ -491,6 +495,57 @@ article .pedin{
 		margin-left: 120px;
 	}
 }
+@media (min-width: 720px){
+	.menu{
+		top: 70px;
+		font-size: 50px;
+	}
+	.menu a{
+		padding: 50px;
+	}
+h1{
+	font-size: 56px;
+	margin-top: 15px;
+}
+#tours h4{
+	font-size: 42px;
+}
+
+#tours p{
+	font-size: 30px;
+}
+h4{
+	font-size: 40px;
+}
+
+ figure.snip0015 h2{
+margin-top: 90px;
+}
+.pedidos{
+	margin-right: 140px;
+	margin-left: 140px;
+}
+.pedidos img {
+    display: block;
+    margin: auto;
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    justify-content: center;
+    width: 440px;
+}
+.pedidos h3{
+	font-size: 2em;
+}
+.pedidos p{
+	font-size: 1.5em;
+}
+.ache0{
+	font-size: 2.3em;
+}
+}
+
 @media (min-width: 768px){
 
 	.disconts p{
@@ -805,7 +860,16 @@ footer h4{
 	margin-top: 19px;
 
 }
-
+@media (min-width: 720px){
+	.reds{
+		font-size: 2em;
+	}
+}
+@media (min-width: 768px){
+	.reds{
+		font-size: 2em;
+	}
+}
 
 .logos{
     display: flex;
@@ -939,4 +1003,10 @@ figure.snip0015:hover figcaption::before {
   opacity: 1;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
+}
+
+@media (min-width: 480px){
+	figure.snip0015 h2 {
+		margin-top: 70px;
+	}
 }
