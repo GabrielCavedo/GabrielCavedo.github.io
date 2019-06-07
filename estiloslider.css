@@ -79,11 +79,18 @@
     line-height: 40px;
   }
 
+  @media (min-width: 720px){
+  .seccion1 h2{
+    font-size: 32px;
+  }
+}
   @media (min-width: 768px){
   .seccion1 h2{
     font-size: 32px;
   }
 }
+
+
 
 @media(min-width: 1024px){
   .seccion1 h2{
